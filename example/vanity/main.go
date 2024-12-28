@@ -31,6 +31,8 @@ func main() {
 		ver = wallet.V3
 	case "v4":
 		ver = wallet.V4R2
+	case "v5":
+		ver = wallet.V5R1Final
 	default:
 		log.Println("unknown wallet version, use v3 or v4")
 		os.Exit(1)
